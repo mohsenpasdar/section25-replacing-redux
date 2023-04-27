@@ -4,7 +4,7 @@ export const ProductsContext = React.createContext({
   products: [],
 });
 
-const FunName = (props) => {
+const ProductsProvider = (props) => {
   const [productsList, setProductsList] = useState([
     {
       id: "p1",
@@ -39,4 +39,4 @@ const FunName = (props) => {
   );
 };
 
-export default FunName;
+export default ProductsProvider;
